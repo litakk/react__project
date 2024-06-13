@@ -1,0 +1,32 @@
+@import "../../assets/styles/settings";
+
+.landing-page-main-wrapper {
+    .about-wrapper {
+        .about-section {
+            padding: 50px 150px;
+
+            .about-content {
+                margin: 20px 0;
+                @include grid();
+                grid-template-columns: 1fr, 2fr;
+
+                img {
+                    filter: grayscale(100%);
+                }
+
+                .info {
+                    p {
+                        margin-bottom: 15px;
+                        color: $gray-l;
+                    }
+
+                    button {
+                        img {
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

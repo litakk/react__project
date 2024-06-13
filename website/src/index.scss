@@ -16,7 +16,10 @@ a.btn,
 span.btn {
   border-radius: 10px;
   padding: 10px 20px;
-  border: solid 1px $dark;
+  border: solid 1px $orange;
+  background-color: transparent;
+  color: snow;
+  @include flex
 }
 
 body {
