@@ -1,10 +1,10 @@
-import Test from './components/Test.jsx'
+import Navbar from './components/navigation/Navbar'
 
 function App() {
 
   return (
     <main className="app">
-      <Test />
+      <Navbar />
     </main>
   )
 }
