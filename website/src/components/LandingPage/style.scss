@@ -37,5 +37,63 @@
             }
         }
     }
-}
 
+    .our-values-wrapper {
+        .values-content {
+            padding: 50px 150px;
+
+            .four-divs {
+                margin: 50px 0;
+                @include grid();
+                justify-content: flex-start;
+                align-items: flex-start;
+                gap: 50px;
+
+                .value {
+                    position: relative;
+                    padding: 0 10px 10px 100px;
+
+
+                    img {
+                        position: absolute;
+                        left: -40px;
+                        top: -40px;
+                    }
+
+                    .right-info {
+                        p {
+                            color: $gray;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .our-team-wrapper {
+        .team-section-content-wrapper {
+            padding: 50px 150px;
+
+            .intro {
+                margin: 50px 0;
+                width: 60%;
+                color: $gray;
+            }
+
+            .team-content {
+                @include flex();
+                justify-content: space-between;
+                gap: 10px;
+
+                .person-wrapper {
+                    img {
+                        filter: grayscale(100%);
+                    }
+
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

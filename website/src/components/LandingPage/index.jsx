@@ -15,10 +15,7 @@ function LandingPage() {
                 <OurValues />
             </div>
 
-            <div className="our-team-wrapper">
-                <OurTeam />
-            </div>
-            
+
         </main>
     );
 }

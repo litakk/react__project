@@ -5,6 +5,9 @@ $orange: #FF6600;
 $orange-t: #FF660030;
 $gray: gray;
 $gray-l: lightgray;
+
+
+// ----------------------------------------
 // ------------- GRID & FLEX -------------
 @mixin grid($cols: 2) {
     display: grid;
@@ -12,11 +15,12 @@ $gray-l: lightgray;
     gap: 10px;
     justify-content: center;
     align-items: center;
-    
-}   
+}
 
 @mixin flex() {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+// ----------------------------------------
