@@ -1,5 +1,4 @@
-// props: properties
-
+// props == properties  == {}
 import HeadingVector from "../../../assets/icons/heading-vector.png"
 import "./style.scss"
 
