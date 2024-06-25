@@ -1,17 +1,21 @@
 import Heading from "../../common/Heading"
 import './style.scss'
+import { Link } from 'react-router-dom'
+
 
 function Navbar(props) {
     return (
         <nav className="navbar-wrapper">
-            <Heading size={1.5} title="Fonte" />
+            <Link to="/">
+                <Heading size={1.5} title="Fonte" />
+            </Link>
 
             <div className="links">
-                <a href="#">О нас</a>
+                <Link to="/about">О нас</Link>
                 <a href="#">Команда</a>
                 <a href="#">Блог</a>
                 <a href="#">Продукты</a>
-                <a href="#">Контакты</a>
+                <Link to="/contacts">Контакты</Link>
             </div>
 
             <div className="auth-section">
