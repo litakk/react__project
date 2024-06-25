@@ -9,6 +9,7 @@ function Contacts() {
         phone: '',
     })
 
+
     function submit(e) {
         e.preventDefault()
         console.log("Submitted ...")
