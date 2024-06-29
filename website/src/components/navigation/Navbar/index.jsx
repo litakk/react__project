@@ -24,7 +24,7 @@ function Navbar(props) {
 
             <div className="links">
                 <Link to="/about">О нас</Link>
-                <a href="#">Команда</a>
+                <a href="/team">Команда</a>
                 <a href="#">Блог</a>
                 <a href="#">Продукты</a>
                 <Link to="/contacts">Контакты</Link>

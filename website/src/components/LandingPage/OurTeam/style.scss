@@ -1,0 +1,26 @@
+@import "../../../assets/styles/__settings.scss";
+
+ 
+    .team-section-content-wrapper {
+        padding: 50px 150px;
+
+        .intro {
+            margin: 50px 0;
+            width: 60%;
+            color: $gray;
+        }
+
+        .team-content {
+            @include flex();
+            justify-content: space-between;
+            gap: 10px;
+
+            .person-wrapper {
+                img {
+                    filter: grayscale(100%);
+                }
+
+                text-align: center;
+            }
+        }
+    }

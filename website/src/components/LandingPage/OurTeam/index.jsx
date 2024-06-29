@@ -2,6 +2,7 @@ import Heading from "../../common/Heading"
 import Per1 from "../../../assets/images/per1.png"
 import Per2 from "../../../assets/images/per2.png"
 import Person from './Person.jsx'
+import "./style.scss"
 
 function OurTeam(props) {
   return (
